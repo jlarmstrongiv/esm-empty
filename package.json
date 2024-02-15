@@ -7,11 +7,24 @@
   "author": {
     "name": "John L. Armstrong IV"
   },
+  "type": "module",
   "main": "./index.cjs",
+  "module": "./index.mjs",
+  "exports": {
+    ".": {
+      "require": "./index.cjs",
+      "import": "./index.mjs"
+    },
+    "./Libraries/Utilities/codegenNativeComponent": {
+      "require": "./index.cjs",
+      "import": "./index.mjs"
+    }
+  },
   "engines": {
     "node": ">=18"
   },
   "files": [
-    "index.cjs"
+    "index.cjs",
+    "index.mjs"
   ]
 }
