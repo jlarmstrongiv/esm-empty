@@ -1,0 +1,20 @@
+{
+  "name": "esm-empty",
+  "version": "0.0.0",
+  "description": "Exports empty objects",
+  "license": "MIT",
+  "repository": "jlarmstrongiv/esm-empty",
+  "author": {
+    "name": "John L. Armstrong IV"
+  },
+  "type": "module",
+  "exports": {
+    "default": "./index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "index.js"
+  ]
+}
