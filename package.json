@@ -1,6 +1,6 @@
 {
   "name": "esm-empty",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Exports empty objects",
   "license": "MIT",
   "repository": "jlarmstrongiv/esm-empty",
