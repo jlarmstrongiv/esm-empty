@@ -9,7 +9,8 @@
   },
   "type": "module",
   "exports": {
-    "default": "./index.js"
+    ".": "./index.js",
+    "./*": "./index.js"
   },
   "engines": {
     "node": ">=18"
