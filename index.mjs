@@ -18,7 +18,10 @@ class Callable extends Function {
     return this._instance;
   }
 
-  get() {
+  get(_target, prop) {
+    if (prop === "OS") {
+      return "web";
+    }
     return this.getInstance();
   }
   set() {
